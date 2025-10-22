@@ -1,0 +1,43 @@
+ /* div{
+        border : 2px solid purple
+
+    }   */
+
+.bg-soft-gray {
+  background-color: #dbe4d8; /* สีเทาอ่อน */
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+}
+
+.bg-dark-green {
+  color: #436814; /* ตัวอักษรสีน้ำเงินแบบสดใส */
+}
+
+.indent-first-line {
+  text-indent: 60px; /* เยื้องบรรทัดแรก 30 พิกเซล */
+}
+
+
+.text-center-div {
+    text-align: center;    /* จัดตัวอักษรให้อยู่ตรงกลางแนวนอน */
+    display: flex;         /* ใช้ flexbox เพื่อจัดแนวเนื้อหา */
+    flex-direction: column;
+    justify-content: center; /* จัดให้อยู่กลางแนวตั้ง (ถ้าความสูงกำหนดไว้) */
+    align-items: center;     /* จัดให้อยู่กลางแนวนอน */ }
+
+.bg-matcha {
+  background-color: #2f520a; /* หรือเลือกสีที่คุณชอบจากตารางด้านบน */
+  color: #fff; /* ถ้าต้องการให้ข้อความอ่านง่ายบนพื้นหลังเขียว */
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.bg-matcha2 {
+  background-color: #537430; /* หรือเลือกสีที่คุณชอบจากตารางด้านบน */
+  color: #fff; /* ถ้าต้องการให้ข้อความอ่านง่ายบนพื้นหลังเขียว */
+  padding: 2rem;
+  border-radius: 8px;
+}
